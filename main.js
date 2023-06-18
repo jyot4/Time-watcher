@@ -24,6 +24,8 @@ function reset() {
   sec = 0;
   mint = 0;
   hrs = 0;
+
+  timer.innerHTML = "00:00:00";
 }
 
 function changeTimer() {
